@@ -53,9 +53,9 @@
 }
 
 .card:hover {
-    left: 40vw;
-    width: 24vw;
-    height: 51vh;
+    left: 5vw;
+    width: 7vw;
+    height: 15vh;
     display: flex;
     align-items: center;
     flex-direction: column;
