@@ -1,0 +1,1 @@
+let nameArray = document.getElementsByClassName;
