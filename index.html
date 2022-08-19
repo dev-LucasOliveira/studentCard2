@@ -28,7 +28,7 @@
 
         <div class="card-box">
       
-            <div id="card1" class="card">
+            <div id="card1" class="card" onclick="showCard(1)">
               
                 <img class="img" src='https://i.im.ge/2022/08/02/FAH1Sa.2019-01-Pedro.jpg'>
               
@@ -36,7 +36,7 @@
               
             </div>
 
-            <div id="card2" class="card">
+            <div id="card2" class="card" onclick="showCard(2)">
                 
                 <img class="img" src='https://i.im.ge/2022/08/11/F4ISFM.IMG-20220721-125619-334.jpg'>
                 
@@ -44,7 +44,7 @@
                 
             </div>
 
-            <div id="card3" class="card">
+            <div id="card3" class="card" onclick="showCard(3)">
                 
                 <img class="img" src='https://i.im.ge/2022/08/15/OrLHI9.Screenshot-20220802-141025-2.png'>
                 
@@ -52,7 +52,7 @@
                 
             </div>
 
-            <div id="card4" class="card">
+            <div id="card4" class="card" onclick="showCard(4)">
                 
                 <img class="img" src='https://i.im.ge/2022/08/11/F4hVzG.FctU2T-20220619-185415.jpg'>
                 
@@ -60,7 +60,7 @@
                 
             </div>
 
-            <div id="card5" class="card">
+            <div id="card5" class="card" onclick="showCard(5)">
 
                 <img class="img" src='https://i.im.ge/2022/08/15/OrLjDP.OQPoT0-DSC-0368.jpg'>
                 
@@ -68,9 +68,25 @@
                 
             </div>
 
-            <div id="card6" class="card">
+            <div id="card6" class="card" onclick="showCard(6)">
                 
                 <img class="img" src='https://i.im.ge/2022/08/07/F8JCe9.IMG-20220415-193417-403.jpg'>
+                
+                <div id="text-box"></div>
+                
+            </div>
+
+            <div id="card7" class="card" onclick="showCard(7)">
+                
+                <img class="img" src='https://i.im.ge/2022/08/19/ODquNc.OFWueW-WhatsApp-Image-2022-08-15-at-11-58-43.jpg'>
+                
+                <div id="text-box"></div>
+                
+            </div>
+
+            <div id="card7" class="card" onclick="showCard(8)">
+                
+                <img class="img" src='https://i.im.ge/2022/08/20/ODay0P.WhatsApp-Image-2022-08-19-at-16-22-38.jpg'>
                 
                 <div id="text-box"></div>
                 
@@ -80,7 +96,7 @@
 
         <div class="main-card">
 
-            <img class="main-img" src="https://i.im.ge/2022/08/02/FAH1Sa.2019-01-Pedro.jpg" alt="">
+            <img id="image" class="main-img" src="https://i.im.ge/2022/08/02/FAH1Sa.2019-01-Pedro.jpg" alt="">
 
             <div class="information-box">
                 
@@ -93,7 +109,7 @@
                 </h3>
     
                 <h3 class="text-information">
-                    Birth Date:
+                    Birth:
                 </h3>
     
                 <h3 class="text-information">
@@ -106,9 +122,35 @@
 
             </div>
 
+            <div class="pessoal-box">
+
+                <h3 id="name" class="pessoal-information">
+                    Pedro Luna
+                </h3>
+
+                <h3 id="role" class="pessoal-information">
+                    Teacher
+                </h3>
+
+                <h3 id="birth-date" class="pessoal-information">
+                    1986-04-02
+                </h3>
+
+                <h3 id="status" class="pessoal-information">
+                    Active
+                </h3>
+
+                <h3 id="mode" class="pessoal-information">
+                    Onsite
+                </h3>
+
+            </div>
+
         </div>
 
     </div>
+
+    <script src="C:\PROJECTS\studentsCards2\script.js"></script>
     
 </body>
 
