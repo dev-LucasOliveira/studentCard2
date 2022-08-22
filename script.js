@@ -76,8 +76,10 @@ let arrayImage = [
     "https://i.im.ge/2022/08/20/ODay0P.WhatsApp-Image-2022-08-19-at-16-22-38.jpg"
 ];
 
+
 function showCard(btnNumber) {
 
+    
     if (btnNumber === 1) {
         image.src = arrayImage[0];
         nameHTML.innerHTML = arrayName[0];
